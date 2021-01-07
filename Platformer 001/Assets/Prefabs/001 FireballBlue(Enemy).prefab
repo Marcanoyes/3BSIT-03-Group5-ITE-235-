@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!70 &1922897817
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5315305714960993704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02273002, y: -0.002130938}
+  m_Size: {x: 0.14771575, y: 0.042952772}
+  m_Direction: 1
+--- !u!1001 &7151849492481576903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -1535053623910811074, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1535053623910811074, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 9219233012693773260, guid: 972107773dc88414194d92baefdc029b,
+        type: 3}
+    - target: {fileID: -1535053623910811074, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: bulletParticles
+      value: 
+      objectReference: {fileID: 2384344808166044752, guid: 209e457998f214328a5384b40b6339b1,
+        type: 3}
+    - target: {fileID: -1261539341050569924, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.807579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9148368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083562, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083567, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_Name
+      value: 001 FireballBlue(Enemy)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063498168688083567, guid: 1204d25d7e2c8469e893ca832458fe85,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyProjectile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1204d25d7e2c8469e893ca832458fe85, type: 3}
+--- !u!1 &5315305714960993704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3063498168688083567, guid: 1204d25d7e2c8469e893ca832458fe85,
+    type: 3}
+  m_PrefabInstance: {fileID: 7151849492481576903}
+  m_PrefabAsset: {fileID: 0}
